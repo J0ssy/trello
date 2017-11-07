@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #0079BF;
+	font-family: Arial;
+}
+
+li {
+	display: inline-block;
+
+}
+
+/*Menú fijo*/
+.navbar {
+	background-color: #0067A3;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	min-height: 40px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Propiedades botón*/
+.navbtn {
+	background-color: transparent;
+	padding: 5px 8px;
+	font-size: 15px;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: bold;
+	transition: all .3s ease-out;
+	margin-top: 5px;
+}
+
+
+.navbtn:hover {
+	background-color: #66A4C7;
+}
+
+/*Logo Trello*/
+.navbar-logo {
+	background-image: url(../img/logo.png);
+	opacity: 0.3;
+	height: 35px;
+	width: 100px;
+	background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: opacity .3s ease-out;
+}
+
+.navbar-input {
+	outline: none;
+}
+
+.navbar-logo:hover {
+	opacity: 1;
+}
+
+/*Ícono Info*/
+.navbar-info {
+	border-radius: 50%;
+    border: solid 2px #fff;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+/*Ïcono +*/
+.navbar-plus {
+	
+}
+
+/*Foto usuario*/
+.navbar-user {
+	background-image: url(../img/user.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 35px;
+	width: 35px;
+}
+
+div {
+	border-radius: 6;
+}
+
+h1 {
+	font-size: 18px;
+}
+
+/*Boptones del Submenú*/
+.submenubtn {
+	margin-top: 10px;
+	color: #fff;
+	padding: 5px 8px;
+	border-radius: 4px;
+	outline: none;
+	background-color: transparent;
+	transition: all .3s ease-out;
+}
+
+.submenubtn:hover {
+	background-color: #006AA8;
+}
+
+.star:hover {
+	color: gold;
+}
+
+.fa-lock {
+	padding: 5px;
+}
