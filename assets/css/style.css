@@ -121,3 +121,61 @@ h1 {
 .fa-lock {
 	padding: 5px;
 }
+
+/*Input añadir lista*/
+.addlistinput {
+	background-color: #01639b;
+	border-radius: 4px;
+	outline: none;
+	padding: 10px 22px;
+	margin-left: 20px;
+	margin-top: 7px;
+}
+
+/*Texto del input*/
+::-webkit-input-placeholder { 
+  color: #fff;
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+::-moz-placeholder { 
+  color: #fff;
+  opacity: 0.7;
+   font-size: 15px;
+}
+
+:-ms-input-placeholder { 
+  color: #fff;
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+:-moz-placeholder { 
+  color: #fff;
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+
+/*Div con botones guardar y x */
+.addlistbtns {
+	background-color: #E2E4E6;
+	border-radius: 4px;
+}
+
+/*Botón Guardar*/
+#savebtn {
+	background-color: #4bb225;
+	padding: 10px 22px;
+	color: #fff;
+	font-weight: bold;
+}
+
+/*Botón "x"*/
+#exitbtn {
+	background-color: transparent;
+	font-weight: bold;
+	font-size: 20px;
+	color: #899196;
+}
