@@ -210,6 +210,7 @@ h1 {
 	margin-left: 10px;
     margin-top: 7px;
     outline: none;
+    cursor: pointer;
 }
 
 /*Botón "x"*/
@@ -220,5 +221,6 @@ h1 {
 	color: #899196;
 	margin-left: 10px;
 	outline: none;
+	cursor: pointer;
 }
 
